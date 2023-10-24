@@ -38,11 +38,11 @@ router.route("/user/fetchUser").post(indexController.user.fetchUser);
 router.route("/user/fetchMyself").post(indexController.user.fetchMyself);
 router.route("/user/fetchAllUser").post(indexController.user.fetchAllUser);
 
-//workno new tb
-router.route("/workno/createworkno").post(indexController.workno.createWorkNo);
-router.route("/workno/updateworkno").post(indexController.workno.updateWorkNo);
-router.route("/workno").post(indexController.workno.fetchwork);
-router.route("/workno/deleteworkno").post(indexController.workno.deleteWorkNo);
+// //workno new tb
+// router.route("/workno/createworkno").post(indexController.workno.createWorkNo);
+// router.route("/workno/updateworkno").post(indexController.workno.updateWorkNo);
+// router.route("/workno").post(indexController.workno.fetchwork);
+// router.route("/workno/deleteworkno").post(indexController.workno.deleteWorkNo);
 
 //List
 router.route("/list").post(indexController.list.getAllUsers);
