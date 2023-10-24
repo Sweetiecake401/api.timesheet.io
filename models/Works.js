@@ -49,6 +49,10 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.TIME,
         allowNull: true,
       },
+      timestamps: {
+        type: DataTypes.DATE,
+        allowNull: true,
+      },
       sum_time: {
         type: DataTypes.INTEGER,
         allowNull: true,
